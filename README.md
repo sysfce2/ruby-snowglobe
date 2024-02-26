@@ -149,9 +149,9 @@ For more:
 
 ## Compatibility
 
-Snowglobe is [tested][travis] and supported against Ruby 2.5+ and Rails 4.2+.
+Snowglobe is [tested][travis] and supported against Ruby 2.6+ and Rails 5.0+.
 
 ## Author/License
 
-Snowglobe is © 2019-2020 Elliot Winkler (<elliot.winkler@gmail.com>)
+Snowglobe is copyring © Elliot Winkler (<elliot.winkler@gmail.com>)
 and is released under the [MIT license](LICENSE).

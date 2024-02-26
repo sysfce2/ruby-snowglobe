@@ -1,4 +1,5 @@
 require "open3"
+require "pp"
 require "shellwords"
 require "timeout"
 
@@ -36,6 +37,10 @@ module Snowglobe
       @already_run = false
 
       yield self if block_given?
+    end
+
+    def add_env(env)
+      @env = env.merge(@env)
     end
 
     def formatted_command
